@@ -1,7 +1,7 @@
 ---
 applications:
-- name: test-book-service
+- name: book-service
   path: target/book-service-0.0.1.jar
   instances: 3
   memory: 756M
-  host: book-service
+  host: test-book-service
