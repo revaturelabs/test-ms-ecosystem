@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: book-service
+  cloud:
+    config:
+      uri: https://central-config.cfapps.io
+server:
+  port: ${PORT:8443}
