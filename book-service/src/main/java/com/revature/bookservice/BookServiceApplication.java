@@ -20,7 +20,7 @@ public class BookServiceApplication {
 	}
 
 	@RequestMapping(value="/books", method= RequestMethod.GET, produces= MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<Object> getBookList() {
-		return new ResponseEntity<Object>(new ArrayList<Object>(0), HttpStatus.OK);
+	public ResponseEntity getBookList() {
+		return new ResponseEntity(new ArrayList<Object>(0), HttpStatus.OK);
 	}
 }
